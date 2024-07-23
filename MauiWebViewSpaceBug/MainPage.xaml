@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiWebViewSpaceBug.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Maui WebView Space Bug">
+
+    <VerticalStackLayout>
+        <Entry x:Name="query" />
+        <Button
+            x:Name="sendQuery"
+            Clicked="sendQuery_Clicked"
+            Text="Search" />
+
+        <WebView x:Name="bugTestWebView" />
+    </VerticalStackLayout>
+
+</ContentPage>
